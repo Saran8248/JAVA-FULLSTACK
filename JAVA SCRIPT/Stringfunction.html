@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>String Functions </title>
+</head>
+<body>
+    <script>
+
+        let str = "SATRANALSBHGA";
+        document.write(str.length);
+        
+        let str1 = "sarankumar"
+        document.write(str1.charAt(5));
+        
+        let str3 = "sarankumar manikandan jagatheesh";
+        document.write(str3.slice(7, 12 ));
+        
+        console.log("String substring(7, 12 ): ");
+        console.log(str.substring(7, 12));
+        
+        let str4 = "Saranlkiumar manikandan"
+        document.write(str.substr(7, 5));
+        
+        let str5 = "saran"
+        document.write(str.toUpperCase());
+        
+        let str6 = "SAAJABCJGASbgurrygUGGVOIH"
+        document.write(str.toLowerCase());
+        
+        let str7 = "saran wef";
+        document.write(str.concat(" How are you?"));
+        
+        let str8 = "Saran wef";
+        document.write(str2.trim());
+        
+        let str9 = "Saran wefe";
+        document.write(str2.trimStart());
+        
+        let str0 = "Saranc wefw";
+        document.write(str2.trimEnd());
+        
+        let str11 = "dfiwyef wehf whef weejhwe";
+        document.write(str.repeat(3));
+        
+        let str12 = "satanasdjhouhddbah fweff weffwf ";
+        document.write(str.replace('World', 'Universe'));
+        
+        let str13 = "wdudgwubfeu weufh8w7yef w9eytf wectc";
+        document.write(str3.replaceAll('foo', 'qux'));
+
+        let str14 = "ffhpq8yfehqf8yqf qh q9qyq 98yqf fyuquf";
+        document.write(str.split(' '));
+    </script>
+</body>
+</html>
