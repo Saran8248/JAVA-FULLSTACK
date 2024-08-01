@@ -7,5 +7,8 @@ import { ChildService } from './child.service';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
- 
+
+  constructor{
+    this.id
+  }
 }

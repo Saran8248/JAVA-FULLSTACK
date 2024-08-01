@@ -9,7 +9,8 @@ import { AboutComponent } from './about/about.component';
 import { Routes, RouterModule } from '@angular/router';
 import { ChildComponent } from './child/child.component';
 import { ChildService } from './child.service';
- 
+import {FormsModule } from '@angular/forms';
+
 const ROUTES: Routes = [
  { path : 'home', component : HomeComponent},
  { path : 'contact', component : ContactComponent},
@@ -26,6 +27,7 @@ const ROUTES: Routes = [
   imports: [
     BrowserModule,
     AppRoutingModule,
+    FormsModule
   ],
   providers: [ChildService],
   bootstrap: [AppComponent]

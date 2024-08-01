@@ -9,14 +9,13 @@ a{
 } */
 
 .div-body{
-  background-image: url('fs--img-2.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 .box{
   display: flex;
   justify-content: center;
-  position:relative;  
+  position:relative;
 }
 .header{
   font-family: 'Times New Roman', Times, serif;
@@ -33,7 +32,7 @@ a{
 .body-box{
   display: flex;
   justify-content: center
-  
+
 }
 .box-1{
   border: 2px solid black;

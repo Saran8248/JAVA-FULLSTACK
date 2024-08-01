@@ -10,27 +10,60 @@
   <router-outlet></router-outlet>
 </div> -->
 
-<!-- 
+<!--
 <h1>
   Addtion:{{sum}}
 </h1>
 <app-child></app-child> -->
 
 <body class="div-body">
-  
+
     <div class="box">
 <div class="header"><h1>Mark Management System</h1></div>
     </div>
 
     <div class="body-box">
-<div class="box-1"> 
-    <input type="text" id="if" placeholder="Enter your id">ID
+<div class="box-1">
+  <label for="if" ></label>
+    <input type="text" id="if" placeholder="Enter your id" class="form-control"  name="id" #id="ngModel"  ngModel required pattern="[0-9]+"/>ID
+
+    <div *ngIf="id.touched">
+      <div *ngIf="id.errors?.['required']">
+        <font color="red"><b>Enter your Id</b></font>
+      </div>
+      <div *ngIf="id.errors?.['pattern']">
+        <font color="red"><b>Invaild Id</b></font>
+      </div>
+    </div>
+
     <br>
     <br>
-    <input type="text" id="name" placeholder="Enter your name">NAME
+
+    <input type="text" id="name" placeholder="Enter your name" name="data" class="form-control" #name="ngModel" ngModel required pattern="[a-zA-Z]+">NAME
+
+    <div *ngIf="name.touched">
+      <div *ngIf="name.errors?.['required']">
+        <font color="red"><b>Enter your  name</b></font>
+      </div>
+      <div *ngIf="name.errors?.['pattern']">
+        <font color="red"><b>Invalid name</b></font>
+      </div>
+    </div>
+
     <br>
     <br>
-    <input type="text" id="salary" placeholder="Enter your mark">mark
+
+    <input type="text" id="salary" placeholder="Enter your mark" class="form-control" id="mark" #mark="ngModel" ngModel required pattern="[0-9]+">MARK
+
+    <div *ngIf="mark.touched">
+      <div *ngIf="mark.errors?.['required']">
+        <font color="red"><b>Enter your mark</b></font>
+      </div>
+      <div *ngIf="mark.errors?.['pattern']">
+        <font color="red"><b>Invalid mark</b></font>
+      </div>
+    </div>
+
     <br>
     <div class="but">
     <button class="ADD">ADD</button>
@@ -44,7 +77,7 @@
     <hr style="height: 2px; color: black;">
     <h3></h3>
     <h3></h3>
-    
+
 </div>
 
 </div>

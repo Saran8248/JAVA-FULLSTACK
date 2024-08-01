@@ -1,0 +1,76 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-image: url("fs--img-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    position:relative;    
+}
+.header{
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid black;
+    color: honeydew;
+    border-radius: 10px;
+    padding: 10px;
+    width: 70%;
+    text-align: center;
+    margin: 20px;
+    display: inline;
+}
+
+.body-box{
+    display: flex;
+    justify-content: center
+    
+}
+.box-1{
+    border: 2px solid black;
+    width: 600px;
+    height: 400px;
+    text-align: center;
+    border-radius: 20px;
+    margin-top:20px;
+}
+input{
+    width: 350px;
+    height: 25px;
+    margin-top: 30px;
+    padding: 5px;
+    margin: 20px;
+    cursor: pointer;
+    display: inline;
+}
+button{
+    width: 100px;
+    height:30px;
+    margin-top:60px;
+    cursor: pointer;
+}
+.but{
+    display: flex;
+    justify-content: space-around;
+}
+.ADD:hover{
+    background-color:rgb(42, 170, 80);
+}
+.UPDATE:hover{
+    background-color: yellow;
+}
+.DELETE:hover{
+    background-color: red;
+}
+
+.box-2{
+        border: 2px solid black;
+        color: honeydew;
+        width: 300px;
+        height: 400px;
+        text-align: center;
+        border-radius: 20px;
+        margin-top:20px;
+        margin-left: 30px;
+}
