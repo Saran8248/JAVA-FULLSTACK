@@ -25,7 +25,7 @@ const ROUTES: Routes = [
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [ChildService],
   bootstrap: [AppComponent]
