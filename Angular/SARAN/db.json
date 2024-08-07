@@ -1,0 +1,44 @@
+{
+  "student": [
+    {
+      "id": "73772126118",
+      "stdName": "saran",
+      "stdmark": "100"
+    },
+    {
+      "id": "12365485987",
+      "stdName": "sattii",
+      "stdmark": "532"
+    },
+    {
+      "id": "84954123",
+      "stdName": "dataa",
+      "stdmark": "345"
+    },
+    {
+      "id": "678909",
+      "stdName": "vasanth",
+      "stdmark": "344"
+    },
+    {
+      "id": "678909",
+      "stdName": "mouli",
+      "stdmark": "222"
+    },
+    {
+      "id": "85265476",
+      "stdName": "vetrivel",
+      "stdmark": "445"
+    },
+    {
+      "id": "749632114",
+      "stdName": "kablian",
+      "stdmark": "308"
+    },
+    {
+      "id": "7367956146",
+      "stdName": "guna",
+      "stdmark": "498"
+    }
+  ]
+}

@@ -1,13 +1,5 @@
-[
-  {
-    "empId" : 101,
-    "empname": "mani",
-    "empsalary" : 2000
-  },
-
-  {
-    "empId": 23,
-    "empname": "saran",
-    "emp salary" : 3000
-  }
-]
+{
+  "employees": [
+    
+  ]
+}
